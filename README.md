@@ -5,12 +5,12 @@
 
 Plugin | Developer(s) | Versions | Status | References
 --- | --- | --- | --- | ---
-Easy Facebook Like Box | sjaved, DaNish Ali | ALL | Confirmed | [WP][1] - [Code][2]
+`Easy Facebook Like Box` | sjaved, DaNish Ali | ALL | Confirmed | [WP][1] - [Code][2]
 
 [1]: https://wordpress.org/support/topic/sloppy-enqueuing-of-css
 [2]: https://github.com/wp-plugins/easy-facebook-likebox/blob/master/admin/easy-facebook-likebox-admin.php#L110
 
-# How to submit a sloppy dev/plugin
+# Report a sloppy dev/plugin
 
 To add a sloppy dev/plugin to the list, please [Open a New Issue][999] using the **Sloppy Template** from below.
 
@@ -27,6 +27,7 @@ To add a sloppy dev/plugin to the list, please [Open a New Issue][999] using the
 
 ### Sloppy Template:
 
+```
 **Plugin**: Example Plugin
 **Developer(s)**: Developer1, Developer2
 **Version(s)**: <=1.5
@@ -36,3 +37,14 @@ https://github.com/developer1/example-plugin/admin.php?#L45
 
 **Description**:
 This plugin is enqueing standard HTML table CSS on every page causing all standard tables to be half the width...
+```
+
+# Remove a sloppy dev/plugin
+If you can confirm this is no longer an issue, or if you're the developer of the plugin and want it removed from this list (*which is great!*), please open a new issue starting with **[REMOVE]**
+
+Please include all details you can, including:
++ Date Patched
++ Version Patched
++ URL for commit with patch
+
+*Please note, plugin's will NOT be removed unless the issue is confirmed to be invalid, or patched.*
