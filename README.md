@@ -48,3 +48,5 @@ Please include all details you can, including:
 + URL for commit with patch
 
 *Please note, plugin's will NOT be removed unless the issue is confirmed to be invalid, or patched.*
+
+[999]:https://github.com/tripflex/dequeue-sloppy-devs/issues/new
